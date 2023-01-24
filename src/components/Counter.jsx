@@ -7,12 +7,12 @@ const Counter = () => {
 
     const inc = () => {setLikes(likes+1)};
     const dec = () => setLikes(likes-1);
-
     return (
+
         <div>
-            <h1>{likes}</h1>
-            <button onClick={inc}>Увеличить</button>
-            <button onClick={dec}>Уменьшить</button>
+            {/*<h1>{likes}</h1>*/}
+            {/*<button onClick={inc}>Увеличить</button>*/}
+            {/*<button onClick={dec}>Уменьшить</button>*/}
             <h1>{comment}</h1>
             <input
                 type='text'
